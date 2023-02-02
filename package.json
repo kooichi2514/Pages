@@ -1,10 +1,15 @@
 {
   "name": "aula93",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/kooichi2514/GitPagesWebPack.git"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -w"
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +19,7 @@
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
+    "gh-pages": "^5.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
