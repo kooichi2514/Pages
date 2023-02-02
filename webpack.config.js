@@ -4,8 +4,9 @@ module.exports = {
     mode: 'production',
     entry: './src/main.js',
     output: {
-        path: path.resolve(__dirname, 'public', 'assets', 'js'),
-        filename: 'bundle.js'
+        publicPath: "/GitPagesWebPack/"
+        // path: path.resolve(__dirname, 'public', 'assets', 'js'),
+        // filename: 'bundle.js'
     },
     module: {
         rules: [{
