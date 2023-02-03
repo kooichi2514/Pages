@@ -2,7 +2,7 @@
   "name": "projetogithubpages",
   "version": "1.0.0",
   "repository": {
-    "url": "git+https://github.com/kooichi2514/GitPagesWebPack.git"
+    "url": "git+https://github.com/kooichi2514/Pages.git"
   },
   "description": "",
   "main": "index.js",
